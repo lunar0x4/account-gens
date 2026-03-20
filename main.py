@@ -19,7 +19,7 @@ def main():
     print_banner()
 
     print(f"{Fore.GREEN}[1] {Fore.WHITE}hyper3d.ai")
-    print(f"{Fore.CYAN}[1] {Fore.WHITE}piclumen.py")
+    print(f"{Fore.GREEN}[2] {Fore.WHITE}piclumen.py")
     print(f"{Fore.RED}[0] {Fore.WHITE}exit\n")
 
     try:
