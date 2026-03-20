@@ -2,7 +2,7 @@
 Makes accounts for different websites!
 
 # Note
-This material is provided solely for educational and research purposes; unauthorized or improper use may result in terms‑of‑service violations or other consequences.
+This material is provided solely for educational and research purposes; unauthorized or improper use may result in terms‑of‑service violations or other consequences - use at your own risk.
 
 # How To Use
 1. Make sure you have python installed.
