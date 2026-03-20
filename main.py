@@ -25,7 +25,7 @@ def main():
         choice = input(f"{Fore.CYAN}select an option: {Fore.WHITE}")
 
         if choice == "1":
-            subprocess.run([sys.executable, "hyper3d.py"])
+            subprocess.run([sys.executable, "gens/hyper3d.py"])
         elif choice == "0":
             print(f"\n{Fore.GREEN}goodbye!")
             sys.exit(0)
