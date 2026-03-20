@@ -20,6 +20,7 @@ def main():
 
     print(f"{Fore.GREEN}[1] {Fore.WHITE}hyper3d.ai")
     print(f"{Fore.GREEN}[2] {Fore.WHITE}iogames.space")
+    print(f"{Fore.GREEN}[3] {Fore.WHITE}addictedgames.com")
     print(f"{Fore.RED}[0] {Fore.WHITE}exit\n")
 
     try:
@@ -29,6 +30,8 @@ def main():
             subprocess.run([sys.executable, "gens/hyper3d.py"])
         elif choice == "2":
             subprocess.run([sys.executable, "gens/iogames.py"])
+        elif choice == "3":
+            subprocess.run([sys.executable, "gens/addictedgames.py"])
         elif choice == "0":
             print(f"\n{Fore.GREEN}goodbye!")
             sys.exit(0)
