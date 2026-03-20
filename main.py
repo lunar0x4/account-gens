@@ -9,10 +9,10 @@ def clear_screen():
     os.system('clear' if os.name == 'posix' else 'cls')
 
 def print_banner():
-    print(f"{Fore.CYAN}{'='*50}")
-    print(f"{Fore.CYAN}     ACCOUNT GENERATOR LOADER")
+    print(f"{Fore.CYAN}{'='*30}")
+    print(f"{Fore.CYAN}ACCOUNT GENERATOR LOADER")
     print(f"{Fore.YELLOW}created by lunar0x4")
-    print(f"{Fore.CYAN}{'='*50}\n")
+    print(f"{Fore.CYAN}{'='*30}\n")
 
 def main():
     clear_screen()
