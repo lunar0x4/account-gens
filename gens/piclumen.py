@@ -1,10 +1,10 @@
+# currently broken (wont let you login but it makes accounts)
 import requests
 import random
 import string
 import time
 import json
 import threading
-import hashlib
 from queue import Queue
 from colorama import init, Fore
 import concurrent.futures
@@ -160,13 +160,12 @@ class Alpha3dGenerator: # i modified a non-working one so thats why its labelled
 
     def register(self, session, email, code):
         password = self.random_string(8)
-        hashed = hashlib.md5(password.encode()).hexdigest()
         try:
             resp = session.post(
                 "https://api.piclumen.com/api/user/register",
                 json={
                     "account": email,
-                    "password": hashed,
+                    "password": password,
                     "validateCode": code,
                 },
                 timeout=10,
