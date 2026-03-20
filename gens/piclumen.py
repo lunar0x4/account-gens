@@ -166,7 +166,7 @@ class Alpha3dGenerator: # i modified a non-working one so thats why its labelled
                 "https://api.piclumen.com/api/user/register",
                 json={
                     "account": email,
-                    "password": hashed, # required to pass MD5 check
+                    "password": hashed,
                     "validateCode": code,
                 },
                 timeout=10,
