@@ -101,7 +101,7 @@ def get_csrf_and_cookie(proxy=None):
 def register_account(email, session, csrf_token, dashboard_cookie, thread_id):
     username = generate_username()
     password = generate_password()
-    fullname = "Hugh Janice"
+    fullname = "Hugh Janice" # you can change this to whatever you want, doesnt really matter
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
